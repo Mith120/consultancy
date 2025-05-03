@@ -1,0 +1,62 @@
+.customer-dashboard {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-dashboard h2 {
+  margin-bottom: 1.5rem;
+  color: #007bff;
+  text-align: center;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.booking-form select,
+.booking-form input[type="date"],
+.booking-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+}
+
+.service-item input {
+  margin-right: 0.5rem;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: green;
+}

@@ -1,0 +1,21 @@
+/* BookingConfirmation page styles */
+.booking-confirmation-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-confirmation-message {
+  font-size: 1.2rem;
+  color: #28a745;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.booking-details {
+  font-size: 1rem;
+  color: #333;
+}
